@@ -33,4 +33,7 @@
 9. ES module loading and fallback is enabled by having following script tag in index.html. [More Details!] (https://developers.google.com/web/fundamentals/primers/modules).
     - ```<script type="module" src="src/index.js"></script>```
     - ```<script nomodule src="bundle.es5.js"></script>```
-
+10. To run 
+    - ```npm run build```
+    - ```npm start```
+    - Browse to http://localhost:8080
