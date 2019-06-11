@@ -7,7 +7,7 @@
 ###  Setup
     cd codeDir
     npm init -y
-    npm install --save-dev babel-loader @babel/core @babel/preset-env @babel/plugin-proposal-object-rest-spread @babel/plugin-transform-runtime webpack webpack-cli webpack-dev-server
+    npm install --save-dev babel-loader @babel/core @babel/preset-env @babel/plugin-proposal-object-rest-spread @babel/plugin-transform-runtime webpack webpack-cli webpack-dev-server clean-webpack-plugin copy-webpack-plugin
     npm install --save @babel/runtime
 
 > **Note:**  @babel/plugin-transform-runtime @babel/runtime are required to support ES7 **async/await** features. We may get following an error (**regeneratorruntime is not defined**) without this.
